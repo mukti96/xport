@@ -1,0 +1,313 @@
+/* 
+Template Name: Dashboard HTML Template
+Author: Mukti
+Version: 1.0
+*/
+
+/*======================= 
+    01. Google fonts
+=======================*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+/*=====================
+    02. General css 
+=======================*/
+
+a:focus {
+    outline: 0 solid
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 600;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: .5px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a,
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    transition: .4s;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*======================
+    01. left bar area
+======================*/
+.admin-panel{
+    width: 100%;
+    height: 100vh;
+}
+.left-bar {
+    background-color: #2d3436;
+    width: 55px;
+    height: 720px;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo{
+    height: 55px; 
+}
+.logo img{
+    height: 100%; 
+}
+.das-icon{
+    height: 270px; 
+}
+.faka{
+    height: 340px; 
+}
+.logo-end{
+    height: 55px; 
+}
+.logo-end img{
+    height: 100%; 
+}
+.das-icon ul li a {
+    color: #fff;
+    padding: 14px 0 14px 16px;
+    display: block;
+}
+.das-icon ul li.active{
+    background-color: #000;
+    transition: 3s;
+}
+.das-icon ul li:hover{
+    background-color: #000;
+}
+.das-icon ul li a i{
+    font-size: 16px;
+}
+/*=====================
+    02. left center
+=======================*/
+.left-center-bar{
+    width: 155px;
+    height: 720px;
+    background-color: #ecf0f1;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 55px;
+}
+.all-menu ul li{
+    background-color: #b2bec3;
+    padding: 15px 0 15px 12px;
+}
+.all-menu ul li i{
+   padding-right: 12px;
+   font-size: 16px;
+}
+.all-menu ul li a{
+   color: #2d3436;
+   font-size: 14px;
+}
+.menu ul li{
+    margin: 8px;
+    padding: 2px 6px;
+}
+.menu ul li a, .vip ul li a{
+   color: #2d3436;
+   font-size: 14px;
+}
+.menu ul li.active{
+    background-color: #b2bec3;
+}
+.menu ul li i, .vip ul li i{
+    padding-right: 16px;
+   font-size: 14px;
+}
+.menu ul li:hover{
+    background-color: #b2bec3;
+}
+.vip {
+    margin: 8px;
+    border-top: 1px solid #b2bec3;
+    padding: 16px 4px;
+}
+
+/*======================
+    03. right center
+======================*/
+.right-center-bar{
+    background-color: #fff;
+    padding-left: 230px;
+    padding-right: 80px;    
+}
+.sevice{
+    width: 100%;
+    padding: 5px 0;
+    overflow: hidden;
+}
+.sevice-all{
+    width: 50%;
+    float: left;
+}
+.search {
+    width: 50%;
+    float: left;
+    text-align: right;
+    position: relative;
+}
+.sevice-icon{
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+}
+.sevice-text{
+    width: 90%;
+    float: right;
+    position: relative;
+}
+.checkbox{
+    position: absolute;
+    top: 25px;
+    left: 92px;
+    width: 100%;
+    height: 100%;
+}
+.search input{
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid #b2bec3;
+}
+.sevice-icon i {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #b2bec3;
+    font-size: 14px;
+    color: #2d3436;
+}
+.search form{
+    position: relative;
+    display: inline-block;
+}
+.search i{
+    position: absolute;
+    top: 18px;
+    left: 41%;
+    width: 16%;
+    height: 100%;
+    z-index: 999;
+    color: #b2bec3;
+}
+.search form input{
+    padding: 10px 30px
+}
+.search span {
+    margin-left: 7px;
+}
+
+.search span a{
+    background-color: #000;
+    padding: 3px 10px 6px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+.description{
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+    padding: 20px 0;
+}
+.description-1{
+    width: 8%;
+    float: left;
+}
+.description-1 i{
+    margin-right: 14px;
+}
+.description-2{
+    width: 12%;
+    float: left;
+}
+.description-3{
+    width: 80%;
+    float: left;
+}
+.item ul li p {
+    display: inline-block;
+}
+.item ul li {
+    border-bottom: 1px solid #ecf0f1;
+    padding: 8px 0;
+}
+.item ul li input[type="checkbox"] {
+    margin-left: 15px;
+}
+.item ul li input[type="radio"] {
+    margin: 0 18px;
+    background-color: #ccc;
+}
+/*======================
+    04. right bar Area
+======================*/
+.right-bar {
+    background-color: #ecf0f1;
+    width: 55px;
+    height: 720px;
+    float: right;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.icon{
+    height: 55px;
+    background-color: #b2bec3; 
+}
+.icon a {
+    font-size: 12px;
+    margin: 12px 0 0 18px;
+    color: #fff;
+    display: inline-block;
+}
+.icon i{
+    background-color: #2d3436;
+    padding: 3px 8px;
+    border-radius: 50%;
+}
+.faka-2{
+    height: 610px;
+}
+.noti{
+    height: 55px;
+}
+.noti a i{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 14px 0 0 18px;
+    color: #2d3436;
+    display: inline-block;
+}
